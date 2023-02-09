@@ -25,3 +25,6 @@ while True:
         formatted_time = f"{Char1}{current_time}{Char2}"
         print(f"{formatted_time}{channelName}{Message2}")
         time.sleep(30)
+        
+        #Works with any streamer.
+        
