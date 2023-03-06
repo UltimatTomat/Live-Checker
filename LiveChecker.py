@@ -45,7 +45,7 @@ while True:
         time.sleep(0.1)
         pg.write("This is UltimatTomat's very awesome LiveChecker bot. !lurk\n", interval=0.1)
         time.sleep(2)
-        pg.write("Here you can see the code: ...\n", interval=0.1)
+        pg.write("Here is the code: https://github.com/UltimatTomat/Live-Checker/blob/main/LiveChecker.py\n", interval=0.1)
         break
     else:
         Message = f"{channelName}{Message2}"
