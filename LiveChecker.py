@@ -26,9 +26,9 @@ def getTime():
    
 def antiShutdown():
     time.sleep(15)
-        pg.moveTo(500, 500)
-        time.sleep(15)
-        pg.moveTo(600, 600)
+    pg.moveTo(500, 500)
+    time.sleep(15)
+    pg.moveTo(600, 600)
 
 while True:
     contents = requests.get('https://www.twitch.tv/' + channelName.lower()).content.decode('utf-8')
